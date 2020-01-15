@@ -1,2 +1,6 @@
-.exe 
+#this is comment of .gitignore 
+
+*.exe
+
+
 
