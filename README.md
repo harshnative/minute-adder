@@ -25,4 +25,8 @@ you migth have leanred in the school that seconds/60 is equal to mins then well 
 
 so in a case you have time of some videos in x mins and y secs then you can simply enter the x.y or mins.secs in the exe file of all the videos and enter 0.99 for quiting the entry , after this the program will execute algorithms , seperate teh secs from the mins and then add them all and show you result in number of minutes and secs 
 
+//----------brief---------------------------
+this is a simple machine which takes input in form of minutes.seconds and then return the submission of all the minutes.seconds added in the total number of minutes and seconds for calculating exact time of videos with the time format minutes : seconds . its just . instead of : 
+//------------------------------------------
+
 for any queries mail me at harshnative@gmail.com or put down in comment section 
