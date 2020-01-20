@@ -18,6 +18,7 @@ if the exe file is not runnning then follow the following steps
 
 "you can make changes and add feature accordingly or if you are not a developer , then you can contect me , hopefully i can help you"
 
+the font is pre set to 24 so that its easy on the eyes
 
 working of the program 
 
