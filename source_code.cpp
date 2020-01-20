@@ -2,6 +2,7 @@
 #include<conio.h>
 #include<math.h>
 #include <sstream>
+#include<windows.h>
 
 using namespace std;
 
@@ -133,6 +134,21 @@ double minuteAdder(double *inputArrayMin , int count)
 
 int main()
 {
+	//FONT SIZE CHANGE 
+		CONSOLE_FONT_INFOEX cfi;
+		cfi.cbSize = sizeof(cfi);
+		cfi.nFont = 0;
+		cfi.dwFontSize.X = 0;                   // Width of each character in the font
+		cfi.dwFontSize.Y = 24;                  // Height
+		cfi.FontFamily = FF_DONTCARE;
+		cfi.FontWeight = FW_NORMAL;
+		std::wcscpy(cfi.FaceName, L"Consolas"); // Choose your font
+		SetCurrentConsoleFontEx(GetStdHandle(STD_OUTPUT_HANDLE), FALSE, &cfi);
+	
+	
+	
+	
+	
 			cout<<"ENTER 0.99 FOR STOPPING THE ENTRY OF NUMBERS"<<endl<<endl;
 			cout<<"Here 2.59 refers to 2 mins and 0.59 secs"<<endl;
 			double input[100];
